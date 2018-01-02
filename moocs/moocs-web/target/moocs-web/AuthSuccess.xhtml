@@ -1,0 +1,272 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:jsf="http://xmlns.jcp.org/jsf"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:pt="http://xmlns.jcp.org/jsf/passthrought"
+      xmlns:p="http://primefaces.org/ui">
+      
+     
+   <h:head>
+      <!-- Title -->
+        <title>Massive Open Online Courses</title>
+        <!-- Meta -->
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="description" content=""></meta>
+        <meta name="author" content=""></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <!-- Favicon -->
+        <link href="favicon.ico" rel="shortcut icon"> </link>
+        <!-- Bootstrap Core CSS -->
+        <h:outputStylesheet library ="css" name="bootstrap.css"></h:outputStylesheet>
+        
+        <!-- Template CSS -->
+        
+        <h:outputStylesheet library ="css" name="animate.css"></h:outputStylesheet>
+        <h:outputStylesheet library ="css" name="font-awesome.css"></h:outputStylesheet>
+        <h:outputStylesheet library ="css" name="nexus.css"></h:outputStylesheet>
+        <h:outputStylesheet library ="css" name="responsive.css"></h:outputStylesheet>
+        <h:outputStylesheet library ="css" name="custom.css"></h:outputStylesheet>
+      
+        <!-- Google Fonts-->
+        <link href="http://fonts.googleapis.com/css?family=Roboto:400,300" rel="stylesheet" type="text/css"></link>
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" rel="stylesheet" type="text/css"></link>
+  
+    </h:head>
+    <h:body>
+        <div id="body_bg">
+            <div id="pre_header" class="container">
+                <div class="row margin-top-10 visible-lg">
+                    <div class="col-md-6">
+                        <p>
+                            <strong>Phone:</strong>&nbsp;0021653767613</p>
+                    </div>
+                    <div class="col-md-6 text-right">
+                        <p>
+                            <strong>Email:</strong>skullcandy@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="primary-container-group">
+                <!-- Background -->
+                <div class="primary-container-background">
+                    <div class="primary-container"></div>
+                    <div class="clearfix"></div>
+                </div>
+                <!--End Background -->
+                <div class="primary-container">
+                    <div id="header" class="container">
+                        <div class="row">
+                            <!-- Logo -->
+                            <div class="logo">
+                                
+                                <h:graphicImage value="/resources/img/logo.png" />
+                                
+                            </div>
+                            <!-- End Logo -->
+                            <ul class="social-icons pull-right hidden-xs">
+                                <li class="social-rss">
+                                    <a href="#" target="_blank" title="RSS"></a>
+                                </li>
+                                <li class="social-twitter">
+                                    <a href="#" target="_blank" title="Twitter"></a>
+                                </li>
+                                <li class="social-facebook">
+                                    <a href="#" target="_blank" title="Facebook">FB</a>
+                                </li>
+                                <li class="social-googleplus">
+                                    <a href="#" target="_blank" title="GooglePlus"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Top Menu -->
+                   <div id="hornav" class="container no-padding">
+                        <div class="row">
+                            <div class="col-md-12 no-padding">
+                                <div class="pull-right visible-lg">
+                                    <ul id="hornavmenu" class="nav navbar-nav">
+                                        <li>
+                                            <a href="#{request.contextPath}/GestionExamen.jsf" class="fa-home">Gestion Examen</a>
+                                        </li>
+                                        <li>
+                                            <span class="fa-gears">Dashboard Courses</span>
+                                            <ul>
+                                                <li class="parent">
+                                                    <span>manage courses</span>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="features-typo-basic.html">add course</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="features-typo-blockquotes.html">delete course</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="features-typo-blockquotes.html">update course</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="parent">
+                                                    <span>view courses</span>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="features-labels.html">view approved courses</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="features-progress-bars.html">view pending courses</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="features-panels.html">view refused courses</a>
+                                                        </li>
+                                                        
+                                                    </ul>
+                                                </li>
+                                                <li class="parent">
+                                                    <span>courses statistics</span>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="features-icons.html">view courses statistics</a>
+                                                        </li>
+                                                        
+                                                    </ul>
+                                                </li>
+                                                <li class="parent">
+                                                    <span>view courses </span>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="features-icons.html">view all courses </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="features-icons.html">view my  courses </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="features-icons.html">view courses scheduales </a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <span class="fa-copy">surveys</span>
+                                            <ul>
+                                                <li>
+                                                    <a href="#{request.contextPath}/inbox.jsf">view sureys</a>
+                                                </li>
+                                                <li>
+                                                    <a href="pages-services.html">surveys statistics</a>
+                                                </li>
+                                                
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <span class="fa-th">Courses Research</span>
+                                            <ul>
+                                                <li>
+                                                    <a href="#{request.contextPath}/SearchLi.jsf">Search courses</a>
+                                                </li>
+                                                
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <span class="fa-font">manage your profil</span>
+                                            <ul>
+                                                <li>
+                                                    <a href="#{request.contextPath}/Profile.jsf">view profile </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#{request.contextPath}/AuthSuccess.jsf">About Us</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#{request.contextPath}/photoCam.jsf">take a photo </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#{request.contextPath}/editimage.jsf">crop your photo </a>
+                                                </li>
+                                                <li>
+                                                     <a href="contact.html" >map</a>
+                                                 </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="contact.html" class="fa-comment">live chat</a>
+                                        </li>
+                                        <li>
+                                            <a href="contact.html" class="fa-comment">our partners</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                            
+                    <!-- End Top Menu -->
+                    <!-- === END HEADER === -->
+                    <!-- === BEGIN CONTENT === -->
+                    <div id="content">
+                        <div class="container">
+                        
+                            <div class="container">
+                                <div class="row margin-vert-30">
+                                    <!-- Login Box -->
+                                    <div class="col-md-12 col-md-offset-0 col-sm-offset-12">
+                                        <form class="login-page">
+                                            <div class="login-header margin-bottom-30">
+                                                <h2>welcome to SKULL CANDY </h2>
+                                            </div>
+                                           <h:form>
+                                         
+    
+
+                                             
+     <h3 style="margin-top:0">About</h3>
+<p:media value="https://www.youtube.com/v/B81Xp4WO7w8" width="420" height="315" player="flash"/>
+     
+     
+                                           </h:form> 
+                                        </form>
+                                    </div>
+                                    <!-- End Login Box -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- === END CONTENT === -->
+            <!-- === BEGIN FOOTER === -->
+            
+            <!-- Footer Menu -->
+            <div id="footer">
+                <div class="container">
+                    <div class="row">
+                        <div id="copyright" class="col-md-4">
+                            <p>(c) 2016 ALL right are reserved to skull candy team</p>
+                        </div>
+                        </div>
+                </div>
+            </div>
+            <!-- End Footer Menu -->
+            <!-- JS -->
+        <h:outputScript library ="js" name="jquery.js"></h:outputScript>
+        <h:outputScript library ="js" name="boostrap.js"></h:outputScript>
+        <h:outputScript library ="js" name="scripts.js"></h:outputScript>
+            <!-- Isotope - Portfolio Sorting -->
+            <h:outputScript library="js" name="jquery.min.js"></h:outputScript>
+            <!-- Mobile Menu - Slicknav -->
+             <h:outputScript library="js" name="jquery.slicknav.js"></h:outputScript>
+            <!-- Animate on Scroll-->
+            <h:outputScript library="js" name="jquery.visible.js"></h:outputScript>
+            <!-- Sticky Div -->
+             <h:outputScript library="js" name="jquery.sticky.js"></h:outputScript>
+            <!-- Slimbox2-->
+             <h:outputScript library="js" name="slimbox2.js"></h:outputScript>
+             <!-- Modernizr -->
+              <h:outputScript library="js" name="modernizr.custom.js"></h:outputScript>
+           <!-- End JS -->
+   </div> </h:body>
+</html>
+<!-- === END FOOTER === -->

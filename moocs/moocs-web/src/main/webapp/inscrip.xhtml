@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang = "en"
+     xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:h="http://xmlns.jcp.org/jsf/html"
+     xmlns:a="http://xmlns.jcp.org/jsf/passthrough">
+     
+     <h:head>
+     <title>Login</title>
+     </h:head>
+     <h:body>
+     <h:form>
+    <p> <h:inputText id="name" value="#{inscri.learner.nom_user}" a:placeholder="Username ?"  /> </p>
+     
+     <p>  <h:inputSecret  id="pwd" value="#{inscri.learner.mdp}" a:placeholder="password?" />  </p>
+     <p>  <h:inputText  id="prenom" value="#{inscri.learner.prenom_user}" a:placeholder="last name?" />  </p>
+     <p>  <h:inputText  id="photo" value="#{inscri.learner.photo}" a:placeholder="photo?" />  </p>
+     <p>  <h:inputText  id="email" value="#{inscri.learner.email}" a:placeholder="mail?" />  </p>
+     
+    
+    <p>  <h:commandButton value="Sign-up" action="#{inscri.inscript()}" /> </p>
+     
+     </h:form>
+     </h:body>
+     </html>
