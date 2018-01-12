@@ -2,19 +2,6 @@
 Massive Online Open Courses J2EE Project
 
 1. Motivation
-The cooperation between ESPRIT and the Tunisian Ministry of Communication and
-Information has led to the must to realize a platform that is targeted at decreasing the
-gap that sits between young graduates qualifications’ and IT companies needs’.
-It was pointed out that this platform has to offer trainings and theoretic background for
-the youth from all over the world and especially Tunisian graduates in the field of ICT:
-Information and Communication Technologies.
-For its goal to be achieved, the ministry launched a tender for the establishment of an
-online learning platform that offers MOOCs.
-Massive open online courses—MOOCs—are online courses that are free and open to
-anyone, with essentially unlimited enrollment. Such courses rely heavily on video
-lectures and automated quizzes and tests. They attain large scale by reducing instructor
-contact with Learners. These latter often rely on self-organized study and discussion
-groups.
 This document summarizes the targeted platform requirements.
 
 2. What is a course?
