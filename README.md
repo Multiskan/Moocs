@@ -1,7 +1,7 @@
 # Moocs
 Massive Online Open Courses J2EE Project
 
-1. Motivation
+1. Intro
 This document summarizes the targeted platform requirements.
 
 2. What is a course?
